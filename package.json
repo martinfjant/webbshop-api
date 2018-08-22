@@ -1,0 +1,21 @@
+{
+  "name": "webshop",
+  "version": "0.0.1",
+  "description": "A little webshop",
+  "main": "index.js",
+  "author": "Martin Falk Johansson",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@koa/cors": "2",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-jwt": "^3.3.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mongodb": "2.2.33",
+    "mongoose": "^5.2.4"
+  }
+}
