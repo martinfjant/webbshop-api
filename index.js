@@ -1,2 +1,2 @@
-const server = require('./server')
-server.listen(3000)
+const server = require('./server');
+server.listen(process.env.PORT || 8080);
