@@ -6,6 +6,9 @@
   "author": "Martin Falk Johansson",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": "11.8.0"
+  },
   "dependencies": {
     "@koa/cors": "2",
     "jsonwebtoken": "^8.3.0",
